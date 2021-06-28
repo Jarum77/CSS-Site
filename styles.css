@@ -1,0 +1,163 @@
+/*********************************TAG SELECTORS************************************/
+body{
+  background-color: #171717;
+  margin:0;
+  text-align:center;
+    line-height:30px;
+}
+hr{
+  width: 10%;
+  border-style:none;
+  border-top-style: dotted;
+  border-width:10px;
+  border-color:grey;
+
+}
+h1{
+  color:white;
+  margin-top:50px;
+  font-family: 'Allura', cursive;
+  font-size: 6rem;
+  margin-bottom:0;
+  line-height:100px;
+}
+h2{
+  color:white;
+  margin-top:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  font-weight:normal;
+}
+
+h3{
+  color:white;
+  margin-top:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+
+}
+p{
+  color: #E8E8E8;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  width:50%;
+  margin:auto;
+  margin-bottom:40px;
+
+}
+img{
+  background-color: transparent;
+}
+a:hover{
+  color: lightgrey;
+}
+
+a{
+  color:grey;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:20px 20px;
+  text-decoration:none;
+}
+
+/*********************************ClASS SELECTORS************************************/
+.cloud{
+  height:100px;
+}
+.gif1{
+  height:200px;
+  margin: 0;
+  position:relative;
+}
+.gif2{
+  height:250px;
+  margin:0;
+  position:relative;
+}
+
+.Section1{
+  background-color:#DA0037;
+  position:relative;
+  padding-bottom:50px;
+}
+.profile{
+  background-color: #525252;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.skills{
+  background-color:#525252;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.contact-me{
+  background-color:#444444;
+  padding-top:50px;
+}
+.bottom-container{
+  background-color:#171717;
+  padding-top:10px;
+}
+
+.underline{
+  text-decoration:underline;
+  font-weight:bold;
+}
+.subheading{
+  font-size:2.5rem;
+}
+.stock-image{
+  height:300px;
+  margin-top:50px;
+}
+.gym-image{
+  height:300px;
+  margin:50px;
+}
+.pp{
+  height:400px;
+  margin-top:30px;
+}
+.copyright{
+  font-size:15px;
+
+}
+/********************************BUTTON***********************************/
+.BUTTON_EXN {
+   background: #DA0037;
+   background-image: -webkit-linear-gradient(top, #DA0037, #FE3669);
+   background-image: -moz-linear-gradient(top, #DA0037, #FE3669);
+   background-image: -ms-linear-gradient(top, #DA0037, #FE3669);
+   background-image: -o-linear-gradient(top, #DA0037, #FE3669);
+   background-image: -webkit-gradient(to bottom, #DA0037, #FE3669);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 20px;
+   line-height: 20px;
+   color: #FFFFFF;
+   font-family: 'Source Sans Pro', sans-serif;
+   width: 124px;
+   font-size: 15px;
+   font-weight: 400;
+   padding: 10px;
+   text-shadow: 1px 1px 40px #000000;
+   border: solid #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_EXN:hover {
+   border: solid #000000 1px;
+   background: #444444;
+   background-image: -webkit-linear-gradient(top, #444444, #898989);
+   background-image: -moz-linear-gradient(top, #444444, #898989);
+   background-image: -ms-linear-gradient(top, #444444, #898989);
+   background-image: -o-linear-gradient(top, #444444, #898989);
+   background-image: -webkit-gradient(to bottom, #444444, #898989);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
